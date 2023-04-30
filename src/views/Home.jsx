@@ -1,8 +1,16 @@
 import React from 'react'
+import HomeCard from '../components/HomeCard'
+import './styles/Home.css'
 
 const Home = () => {
   return (
-    <h1>Home</h1>
+    <section className='main-section--home'>
+    <HomeCard
+    title="Characters"
+    
+    />
+    </section>
+
   )
 }
 
