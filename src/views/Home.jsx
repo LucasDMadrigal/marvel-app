@@ -6,8 +6,12 @@ const Home = () => {
   return (
     <section className='main-section--home'>
     <HomeCard
-    title="Characters"
-    
+    title="comics"
+    alignTitle="align-title--left"
+    />
+    <HomeCard
+    title="characters"
+    alignTitle="align-title--right"
     />
     </section>
 
